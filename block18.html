@@ -1,0 +1,53 @@
+<!-- 
+
+UNIT TESTS:
+
+1. A function called "multiplication" that returns the product of the two input
+numbers.
+
+Expect multiplication(2, 3) to be a number.
+Expect multiplication(2, 3) to be equal to 6.
+Expect multiplication(-2, 3) to be equal to -6.
+Expect multiplication(0, 3) to be equal to 0.
+Expect multiplication(a, 3) to be an error.
+Expect multiplication(undefined, 3) to be an error.
+
+
+2. A function called "concatOdds" takes two arrays of integers as arguments. It should return a single array that only contains the odd numbers, in ascending order, from both of the arrays.
+Should return a single array of odd numbers in ascending order.
+Should include odd numbers
+Should not include even numbers
+When multiples of the same odd number in the array should just show once
+
+Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an array.
+Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be equal to [-1, 1, 3, 9, 15].
+Expect concatOdds([2, 4, 6], [1, 2, 3]) to be equal to [1, 3].
+Expect concatOdds([1, 1, 1], [3, 3, 3]) to be equal to [1, 3].
+Expect concatOdds([2, 4, 6], [2, 2, 2]) to be equal to [].
+Expect concatOdds([2, 4, 6], [a, 2, 2]) to be an error.
+Expect concatOdds([2, 4, 6], [a, b, c]) to be an error.
+Expect concatOdds([2, 4, 6], [undefined]) to be an error.
+Expect concatOdds([], []) to be equal to [].
+
+
+FUNCTIONAL TESTS:
+
+Guest Checkout
+
+-Empty Cart if guest tries to check out: Show an error if the cart is empty.
+-Prompt to create account or log in: Ask to create an account or log in.
+-Order confirmation: Show a confirmation page or send an email after checkout.
+Logged-in User Checkout:
+-Empty Cart: Show an error if the cart is empty.
+-Pre-filled Information: Fill in saved shipping and payment info.
+-Order Confirmation: Show a confirmation page or send an email after checkout.
+Checkout logged in or guest checkout:
+-Add Item: Update cart to show the new item.
+-Remove Item: Update cart to remove the item.
+-Order Summary: Show item details, prices, and total cost.
+-Apply Discount: Update total cost with the discount.
+-Invalid Payment: Show an error for wrong payment info.
+-Payment Confirmation: Go to order confirmation page after payment.
+-Session Expiration: Ask to log in again and keep cart items.
+-Out of Stock: Notify and let them remove or save the item.
+-Navigate: Save progress and let them continue. -->
